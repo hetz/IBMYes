@@ -18,7 +18,7 @@ jobs:
     - name: Init
       run: |
         chmod -R 777 ./IBM_Cloud_CLI/
-    - name: Login IBM Cloud
+    - name: Login IBM Cloud Step
       env:
         IBM_ACCOUNT: ${{ secrets.IBM_ACCOUNT }}
         REGION_NUM: ${{ secrets.REGION_NUM }}
